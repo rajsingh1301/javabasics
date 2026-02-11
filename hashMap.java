@@ -9,19 +9,19 @@ public class hashMap {
             System.out.println("key existed");
            }else System.out.println("key does not  exist");
 
-         //  System.out.println(map); // print value and key both
-         //   System.out.println(map.get("china"));// print the value of the key
+           System.out.println(map); // print value and key both
+            System.out.println(map.get("china"));// print the value of the key
 
            for(Map.Entry<String , Integer> e : map.entrySet()){
-            //System.out.println(e);//print key and its value
-            //System.out.println(e.getKey());//print key
-            //System.out.println(e.getValue());//print value
+            System.out.println(e);//print key and its value
+            System.out.println(e.getKey());//print key
+            System.out.println(e.getValue());//print value
            }
             
            Set<String> keys = map.keySet();
            for ( String key : keys){
             System.out.println(key);
-           //  System.out.println(map.get(key));
+             System.out.println(map.get(key));
            }
            map.remove("china");//remove a set of key and value 
            System.out.println(map);
